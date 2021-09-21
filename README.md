@@ -6,7 +6,7 @@ This repo uses submodules to pair the [Dark Forest Ethereum backend](https://git
 
 ## Install
 
-- Clone with submodules `git clone --recurse-submodules https://github.com/projectsophon/darkforest-local` or if you've already cloned and want to update the module `git submodule update --init --recursive`
+- Clone with submodules `git clone --recurse-submodules https://github.com/cha0sg0d/darkforest-local` or if you've already cloned and want to update the module `git submodule update --init --recursive`
 - Install [Yarn](https://classic.yarnpkg.com/en/docs/install)
 - Run `yarn` at the top level to automatically install all dependencies from subfolders.
 
