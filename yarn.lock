@@ -956,49 +956,49 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@darkforest_eth/constants@6.7.0-staging-nov-23-2.0":
-  version "6.7.0-staging-nov-23-2.0"
-  resolved "https://registry.yarnpkg.com/@darkforest_eth/constants/-/constants-6.7.0-staging-nov-23-2.0.tgz#dd95057af4525c78b404e68d39af7d3a2b8cf192"
-  integrity sha512-yYXqo/AF2VhenBgbKccdPaLjdrx0X+HmNl+m9B6eG18bQypwGQwSAaJVq1/GLEjDS4TTeo5cnd0Moz0AbDq39g==
+"@darkforest_eth/constants@6.7.0-staging-dec-3.0":
+  version "6.7.0-staging-dec-3.0"
+  resolved "https://registry.yarnpkg.com/@darkforest_eth/constants/-/constants-6.7.0-staging-dec-3.0.tgz#d09a5b814bced5327a06917f5179178390d96cef"
+  integrity sha512-mawy85QIAvfNN0umBL6nApeTKILI8T3UNeEmKNFqM4ifxqUueFCISVYoIMg/+gBZcdTZD/LsfBulCwv0CUI9+g==
   dependencies:
-    "@darkforest_eth/types" "6.7.0-staging-nov-23-2.0"
+    "@darkforest_eth/types" "6.7.0-staging-dec-3.0"
     big-integer "^1.6.48"
 
-"@darkforest_eth/contracts@6.7.0-staging-nov-23-2.0":
-  version "6.7.0-staging-nov-23-2.0"
-  resolved "https://registry.yarnpkg.com/@darkforest_eth/contracts/-/contracts-6.7.0-staging-nov-23-2.0.tgz#1c51ce3a2f6e9c213eba375cc8866300e97f07ec"
-  integrity sha512-oITcMA+e6Rkv0Z92IelLTwZrxLG9wxvfsXwCmk8qVBWvbBvEXKYd+tHWAFJsGflqoigdXoz/OyFbGy7Tgz9tQQ==
+"@darkforest_eth/contracts@6.7.0-staging-dec-3.0":
+  version "6.7.0-staging-dec-3.0"
+  resolved "https://registry.yarnpkg.com/@darkforest_eth/contracts/-/contracts-6.7.0-staging-dec-3.0.tgz#7009912d8da8a6ac53332d9653562084d682365e"
+  integrity sha512-PoI3tlihCXsFVoWAOSSnOWe1C+mqbUe7zzyEhfw/+ziA1GFjBo72LEjvyx90QUY5WTELO+r5wilkQqzTYYNMyQ==
 
-"@darkforest_eth/events@6.7.0-staging-nov-23-2.0":
-  version "6.7.0-staging-nov-23-2.0"
-  resolved "https://registry.yarnpkg.com/@darkforest_eth/events/-/events-6.7.0-staging-nov-23-2.0.tgz#e22bcb6652a4559b068fb47b3cad7dcc8f69987f"
-  integrity sha512-NSorjsefSiwiua5c1KnWa31WIQkOrx2Z30R1Q65I85XB7ugXZQvcfpG8a08kjRs9xi1Nn+0lsqRC7eF9+x8QBQ==
+"@darkforest_eth/events@6.7.0-staging-dec-3.0":
+  version "6.7.0-staging-dec-3.0"
+  resolved "https://registry.yarnpkg.com/@darkforest_eth/events/-/events-6.7.0-staging-dec-3.0.tgz#a55d5804446f299bc00ed2b4fd1822d51fdc9ba2"
+  integrity sha512-o4xwdBLXQfJYAivIbbwWmlll2iDL3gd69vTV/XOi7weJOXNtH3rmpsAhU+yMxlCiqpYQBOXGxYRxTDLKHv8w3w==
 
-"@darkforest_eth/hashing@6.7.0-staging-nov-23-2.0":
-  version "6.7.0-staging-nov-23-2.0"
-  resolved "https://registry.yarnpkg.com/@darkforest_eth/hashing/-/hashing-6.7.0-staging-nov-23-2.0.tgz#4abee43b1fbd536f491bf0649f2c2b0c8366a481"
-  integrity sha512-T2tyohtwG8/29AcCMFemPXiuOXFBr45BS9iCOTW6qPa6MapgADs7dQg4q/8ROuvvynGdOU4F4uV+kOWm9vOSRQ==
+"@darkforest_eth/hashing@6.7.0-staging-dec-3.0":
+  version "6.7.0-staging-dec-3.0"
+  resolved "https://registry.yarnpkg.com/@darkforest_eth/hashing/-/hashing-6.7.0-staging-dec-3.0.tgz#8f400f769c9a31ab1d777ad2a4c262f7fe0aac32"
+  integrity sha512-vQHMxTDyDKpkCCX0bnkPgu4RcT+hidlfHHvfGRN4ZG1p8RMNCtzrkHaq5vRhYRpr6M+dZUXwNqfNc7DUIiZWaQ==
   dependencies:
     big-integer "^1.6.48"
 
-"@darkforest_eth/hexgen@6.7.0-staging-nov-23-2.0":
-  version "6.7.0-staging-nov-23-2.0"
-  resolved "https://registry.yarnpkg.com/@darkforest_eth/hexgen/-/hexgen-6.7.0-staging-nov-23-2.0.tgz#088f7d6d89647d700d98957afbb4f00a39efd6df"
-  integrity sha512-hs3FLOFdQm0eb792xuvOvNJ4zXDMaA/6eLVXZ/BKq8FhioNnFyJqRNylYfrvsg9X0oU2a2fzn8S09ZnzU/pDJQ==
+"@darkforest_eth/hexgen@6.7.0-staging-dec-3.0":
+  version "6.7.0-staging-dec-3.0"
+  resolved "https://registry.yarnpkg.com/@darkforest_eth/hexgen/-/hexgen-6.7.0-staging-dec-3.0.tgz#23a66a34c38df7cbf36c26bffef029e741508ff1"
+  integrity sha512-pQaKzhHno2O5dU3b8EjXYrZlwjVIHiXv1wdM8lmtnhKZprKqVjVFk7VerR2AiZcQIOdCY9kynxUGNazwu8JQig==
   dependencies:
-    "@darkforest_eth/types" "6.7.0-staging-nov-23-2.0"
+    "@darkforest_eth/types" "6.7.0-staging-dec-3.0"
     big-integer "^1.6.48"
 
-"@darkforest_eth/network@6.7.0-staging-nov-23-2.0":
-  version "6.7.0-staging-nov-23-2.0"
-  resolved "https://registry.yarnpkg.com/@darkforest_eth/network/-/network-6.7.0-staging-nov-23-2.0.tgz#804fb1c39cb8a3343a5dae1e723616529db32802"
-  integrity sha512-ojpKYonms3ITyCjdYYiLXNP4g4AUDwgF+SJDFa7X8vBOSyj6URs2/ONugUzerx7vWikBnobBz80GPtTiHgF1wA==
+"@darkforest_eth/network@6.7.0-staging-dec-3.0":
+  version "6.7.0-staging-dec-3.0"
+  resolved "https://registry.yarnpkg.com/@darkforest_eth/network/-/network-6.7.0-staging-dec-3.0.tgz#332e4d89dad75e6acdbbea4123cfef6c3a3c5890"
+  integrity sha512-GOzJtevpGttXkYEniJtBw+Q40lLR8yDo1hxA7uESdivLKRDecS+0vZBqd8RDiIxVTSMVhGX712qUD4Rp33IZgQ==
   dependencies:
-    "@darkforest_eth/constants" "6.7.0-staging-nov-23-2.0"
-    "@darkforest_eth/contracts" "6.7.0-staging-nov-23-2.0"
-    "@darkforest_eth/events" "6.7.0-staging-nov-23-2.0"
-    "@darkforest_eth/serde" "6.7.0-staging-nov-23-2.0"
-    "@darkforest_eth/types" "6.7.0-staging-nov-23-2.0"
+    "@darkforest_eth/constants" "6.7.0-staging-dec-3.0"
+    "@darkforest_eth/contracts" "6.7.0-staging-dec-3.0"
+    "@darkforest_eth/events" "6.7.0-staging-dec-3.0"
+    "@darkforest_eth/serde" "6.7.0-staging-dec-3.0"
+    "@darkforest_eth/types" "6.7.0-staging-dec-3.0"
     ethers "^5.5.1"
     json-stable-stringify "^1.0.1"
     just-debounce "^1.1.0"
@@ -1008,38 +1008,38 @@
     p-timeout "^4.0.0"
     uuid "^8.3.2"
 
-"@darkforest_eth/serde@6.7.0-staging-nov-23-2.0":
-  version "6.7.0-staging-nov-23-2.0"
-  resolved "https://registry.yarnpkg.com/@darkforest_eth/serde/-/serde-6.7.0-staging-nov-23-2.0.tgz#9aa4427cebf97c9e5377d091a15a6543bc41a41b"
-  integrity sha512-cZvmQgjYCc84f6PtD+4yOCBEjrV679MqN/MaV0eFeN+iVdhaP6GJukP76thoaRjP7keygeLMOLAJAvgcurhZxw==
+"@darkforest_eth/serde@6.7.0-staging-dec-3.0":
+  version "6.7.0-staging-dec-3.0"
+  resolved "https://registry.yarnpkg.com/@darkforest_eth/serde/-/serde-6.7.0-staging-dec-3.0.tgz#5e754597f4b70952a487c12989daa4bb81e3ab56"
+  integrity sha512-QqpHaxTyiU5vIQTzIosZkw6hYxlarTvxXKPdocEsrJ3Y0Wdv2IfDbp2qc7onP6PWYI2+9BmGiNsew9kBDsa1Xg==
   dependencies:
-    "@darkforest_eth/constants" "6.7.0-staging-nov-23-2.0"
-    "@darkforest_eth/contracts" "6.7.0-staging-nov-23-2.0"
-    "@darkforest_eth/hexgen" "6.7.0-staging-nov-23-2.0"
-    "@darkforest_eth/types" "6.7.0-staging-nov-23-2.0"
+    "@darkforest_eth/constants" "6.7.0-staging-dec-3.0"
+    "@darkforest_eth/contracts" "6.7.0-staging-dec-3.0"
+    "@darkforest_eth/hexgen" "6.7.0-staging-dec-3.0"
+    "@darkforest_eth/types" "6.7.0-staging-dec-3.0"
     big-integer "^1.6.48"
     ethers "^5.5.1"
 
-"@darkforest_eth/snarks@6.7.0-staging-nov-23-2.0":
-  version "6.7.0-staging-nov-23-2.0"
-  resolved "https://registry.yarnpkg.com/@darkforest_eth/snarks/-/snarks-6.7.0-staging-nov-23-2.0.tgz#81b6308b9d28b0a43a8016d5e1cafb511a822e89"
-  integrity sha512-tpznEyoM0/gc5XjA39E5ceonxUM58wjls+Ttj+/EmJj/D9TXeF7tti4IUX94mWp3boak95e1Od2iqTP+7w9gzw==
+"@darkforest_eth/snarks@6.7.0-staging-dec-3.0":
+  version "6.7.0-staging-dec-3.0"
+  resolved "https://registry.yarnpkg.com/@darkforest_eth/snarks/-/snarks-6.7.0-staging-dec-3.0.tgz#af587c4d8a93b3795acd1672d743ac27bbe77778"
+  integrity sha512-E84XEbCjxWL0fo/ysOwXKDdWXho4nR+tPLork7mMxdHjT+41IVliQvZF6xaF8lmZSY158SsMAyeG5pnJaKK2hQ==
 
-"@darkforest_eth/types@6.7.0-staging-nov-23-2.0":
-  version "6.7.0-staging-nov-23-2.0"
-  resolved "https://registry.yarnpkg.com/@darkforest_eth/types/-/types-6.7.0-staging-nov-23-2.0.tgz#649334f4a35b7171bac1e09dc2762a674908f844"
-  integrity sha512-GCKhlB+5moIJ77hk028QbwR7VYf48RzWpq+GUakYIe19qNd5K3EeQwj4qJWmH9QkgGvdrH4+6yrz6e6PlElyUQ==
+"@darkforest_eth/types@6.7.0-staging-dec-3.0":
+  version "6.7.0-staging-dec-3.0"
+  resolved "https://registry.yarnpkg.com/@darkforest_eth/types/-/types-6.7.0-staging-dec-3.0.tgz#1732070716e6b0e09d92c2f30f32b2f0ce6bd9b3"
+  integrity sha512-vitL4sxdJcSn83E3GIsoPHgO6CHSLOp9xflqTnUA/X/Z+w+UmFqcmr4HnRS7vCij32JEPqblp23qTR9TmsoPvw==
   dependencies:
     big-integer "^1.6.48"
     ethers "^5.5.1"
     ts-toolbelt "^9.6.0"
 
-"@darkforest_eth/ui@6.7.0-staging-nov-23-2.0":
-  version "6.7.0-staging-nov-23-2.0"
-  resolved "https://registry.yarnpkg.com/@darkforest_eth/ui/-/ui-6.7.0-staging-nov-23-2.0.tgz#570295d3e23f51f949d2e56f91375c7bafcaaf31"
-  integrity sha512-jwlZP2Op8dxZicifYJwyeAMRn+zO4s2hjk51bRO5+T5Q9WKJ5MiPGBiJaBfYzWxrqFHFmX/U3dK02Jdw+kp0Yw==
+"@darkforest_eth/ui@6.7.0-staging-dec-3.0":
+  version "6.7.0-staging-dec-3.0"
+  resolved "https://registry.yarnpkg.com/@darkforest_eth/ui/-/ui-6.7.0-staging-dec-3.0.tgz#d4b9993a8bd232100b68c7ca5c55b6638988136a"
+  integrity sha512-JS24R84fxNj2oEIuZeu+/yC/zpSmHqgKG5t/fMurVUQnyl2gLy7M0NMEWF6c8llfFlg0VzdqP52Mh0RMSof13g==
   dependencies:
-    "@darkforest_eth/types" "6.7.0-staging-nov-23-2.0"
+    "@darkforest_eth/types" "6.7.0-staging-dec-3.0"
     color "^3.0.2"
     lit "^2.0.0"
 
