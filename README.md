@@ -59,6 +59,10 @@ frontend](https://github.com/darkforest-eth/client) so you can launch a local ga
     2. `0x523170AAE57904F24FFE1F61B7E4FF9E9A0CE7557987C2FC034EACB1C267B4AE`
     3. `0x67195c963ff445314e667112ab22f4a7404bad7f9746564eb409b9bb8c6aed32`
 
+## Edit a local game
+
+See [tweaks](tweaks.md)
+
 ## Static deployment of Dark Forest (no webserver)
 
 If you want to deploy the contracts (with whatever modifications you want) to mainnet, and client
