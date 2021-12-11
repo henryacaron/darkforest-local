@@ -9,16 +9,44 @@ This repo uses submodules to pair the [Dark Forest Ethereum
 backend](https://github.com/darkforest-eth/eth) with the [Dark Forest TypeScript
 frontend](https://github.com/darkforest-eth/client) so you can launch a local game.
 
+## Requirements
+* [Yarn](https://classic.yarnpkg.com/en/docs/install)
+* `node <= 16` [nvm](https://github.com/nvm-sh/nvm)
+
 ## Install
 
-- Clone with submodules `git clone --recurse-submodules https://github.com/projectsophon/darkforest-local` or if you've already cloned and want to update
-  the module `git submodule update --init --recursive`
-- Install [Yarn](https://classic.yarnpkg.com/en/docs/install)
-- Run `yarn` at the top level to automatically install all dependencies from subfolders.
+### Fastest Method for Running a Local Game
+1. Fork my [darkforest-local](https://github.com/cha0sg0d/darkforest-local) to your Github repo.
+2. Clone your darkforest-local repo: `git clone --recurse-submodules https://github.com/<your_name>/darkforest-local.git`
+3. `yarn`
+4. `yarn start`
+
+### Better Method for Running a Local Game
+1. Fork my [darkforest-local](https://github.com/cha0sg0d/darkforest-local) to your Github repo.
+2. Fork [darkforest-eth/eth](https://github.com/darkforest-eth/eth) to your Github repo
+3. Fork [darkforest-eth/client](https://github.com/darkforest-eth/client) to your Github repo.
+4. Clone your darkforest-local repo: `git clone https://github.com/<your_name>/darkforest-local.git`
+5. `git checkout ivan/community-round-deployment`
+6. Update the `.gitmodules` file to point to your new forks of `eth` and `client.
+    * `url = https://github.com/darkforest-eth/eth` => `url = https://github.com/cha0sg0d/eth`
+    * `url = https://github.com/darkforest-eth/client` => `url = https://github.com/cha0sg0d/client`
+6. Fetch the latest code from the submodules
+    * `git submodule update --init --recursive`   
+7. Add new branches for developing:
+    - The `darkforest-local` monorepo detaches the submodules from their current HEADs. If you want to save your changes (for example, if you're testing an new contract in `eth`), you'll need to make a new branch in these submodules.
+    1. `cd eth`
+        1. `git checkout -b <new_name>`
+    2. `cd client`
+        1. `git checkout -b <new_name>`
+7. Install packages and dependencies
+    * `yarn`
+8. Start a game
+    * `yarn start`
+
 
 ## Run a local game
 
-- Open a terminal tab and run `yarn start`, which will 1) start a local node, 2) deploy the contracts, and 3) run the local client in dev mode
+- After running `yarn start`, which will 1) start a local node, 2) deploy the contracts, and 3) run the local client in dev mode
 - When finsihed, the process should pop up your browser to the game client at http://localhost:8081/
 
 You won't have a webserver to drip you a few cents to start playing (which Dark Forest usually does)
