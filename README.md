@@ -5,9 +5,16 @@ the maininet game, but that design decision currently makes it difficult to run 
 of the game locally. This repository provides a setup for running a local game with just a few
 steps.
 
-This repo uses submodules to pair the [Dark Forest Ethereum
+## How darkforest-local Works
+
+This repo uses [submodules](.gitmodules) to pair the [Dark Forest Ethereum
 backend](https://github.com/darkforest-eth/eth) with the [Dark Forest TypeScript
 frontend](https://github.com/darkforest-eth/client) so you can launch a local game.
+
+It also uses Yarn, a package manager and that allows for multiple **workspaces** to exist within a project.
+
+The **workspaces** allows each [submodule](.gitmodules) to have their own packages and configuration. 
+Yarn places all of the packages for each submodule in the top level `node_modules/` folder.
 
 ## Requirements
 * Install [Yarn](https://classic.yarnpkg.com/en/docs/install)
@@ -26,8 +33,7 @@ frontend](https://github.com/darkforest-eth/client) so you can launch a local ga
 2. Fork [darkforest-eth/eth](https://github.com/darkforest-eth/eth) to your Github repo
 3. Fork [darkforest-eth/client](https://github.com/darkforest-eth/client) to your Github repo.
 4. Clone your darkforest-local repo: `git clone https://github.com/<your_name>/darkforest-local.git`
-5. `git checkout ivan/community-round-deployment`
-6. Update the `.gitmodules` file to point to your new forks of `eth` and `client.
+5. Update the `.gitmodules` file to point to your new forks of `eth` and `client.
     * `url = https://github.com/darkforest-eth/eth` => `url = https://github.com/cha0sg0d/eth`
     * `url = https://github.com/darkforest-eth/client` => `url = https://github.com/cha0sg0d/client`
 6. Fetch the latest code from the submodules
@@ -48,11 +54,13 @@ frontend](https://github.com/darkforest-eth/client) so you can launch a local ga
     * run `export NODE_OPTIONS=--openssl-legacy-provider`
     * Note: This error occurs when using Node v17+
 
+## Explanation of `.gitmodules`
+
 
 ## Run a local game
 
 - After running `yarn start`, which will 1) start a local node, 2) deploy the contracts, and 3) run the local client in dev mode
-- When finsihed, the process should pop up your browser to the game client at http://localhost:8081/
+- When finished, the process should pop up your browser to the game client at http://localhost:8081/
 
 - Here are 3 private keys with 100 ETH each to use in the game:
     1. `0x044C7963E9A89D4F8B64AB23E02E97B2E00DD57FCB60F316AC69B77135003AEF`
