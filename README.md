@@ -10,8 +10,8 @@ backend](https://github.com/darkforest-eth/eth) with the [Dark Forest TypeScript
 frontend](https://github.com/darkforest-eth/client) so you can launch a local game.
 
 ## Requirements
-* [Yarn](https://classic.yarnpkg.com/en/docs/install)
-* `node <= 16` [nvm](https://github.com/nvm-sh/nvm)
+* Install [Yarn](https://classic.yarnpkg.com/en/docs/install)
+* Install `node >= 16` [nvm](https://github.com/nvm-sh/nvm)
 
 ## Install
 
@@ -43,19 +43,21 @@ frontend](https://github.com/darkforest-eth/client) so you can launch a local ga
 8. Start a game
     * `yarn start`
 
+## Troubleshooting
+1. If `yarn start` returns an error `ERR_OSSL_EVP_UNSUPPORTED`:
+    * run `export NODE_OPTIONS=--openssl-legacy-provider`
+    * Note: This error occurs when using Node v17+
+
 
 ## Run a local game
 
 - After running `yarn start`, which will 1) start a local node, 2) deploy the contracts, and 3) run the local client in dev mode
 - When finsihed, the process should pop up your browser to the game client at http://localhost:8081/
 
-You won't have a webserver to drip you a few cents to start playing (which Dark Forest usually does)
-so instead of creating a new burner wallet, you'll want to import one of the private keys the node
-funded for you. See the node page where it prints wallets like:
-
-> Account #2: 0x3097403b64fe672467345bf159f4c9c5464bd89e (100 ETH)
->
-> Private Key: 0x67195c963ff445314e667112ab22f4a7404bad7f9746564eb409b9bb8c6aed32
+- Here are 3 private keys with 100 ETH each to use in the game:
+    1. `0x044C7963E9A89D4F8B64AB23E02E97B2E00DD57FCB60F316AC69B77135003AEF`
+    2. `0x523170AAE57904F24FFE1F61B7E4FF9E9A0CE7557987C2FC034EACB1C267B4AE`
+    3. `0x67195c963ff445314e667112ab22f4a7404bad7f9746564eb409b9bb8c6aed32`
 
 ## Static deployment of Dark Forest (no webserver)
 
