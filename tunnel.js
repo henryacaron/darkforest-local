@@ -11,7 +11,7 @@ const opn = require('opn');
 
   console.log(`\nDEV_PUBLIC_RPC=${tunnel.url}`);
 
-  // Opens url for user to approve.
+  // Opens url for deployer to approve.
   opn(tunnel.url);
 
   tunnel.on('close', () => {
