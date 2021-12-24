@@ -26,7 +26,7 @@
     "format": "yarn workspaces run format",
     "start:node": "yarn workspace eth hardhat:node",
     "wait:node": "wait-on tcp:8545",
-    "deploy:contracts": "yarn workspace eth hardhat:dev deploy --whitelist true",
+    "deploy:contracts": "yarn workspace eth hardhat:dev deploy --whitelist false",
     "deploy:contracts:prod": "yarn workspace eth hardhat:prod deploy --whitelist false",
     "start:client": "yarn workspace client start",
     "start:game": "run-s wait:node deploy:contracts start:client",
