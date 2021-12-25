@@ -6,7 +6,7 @@
 	url = https://github.com/cha0sg0d/eth
 [submodule "circuits"]
 	path = circuits
-	url = https://github.com/darkforest-eth/circuits.git
+	url = https://github.com/cha0sg0d/circuits
 [submodule "packages"]
 	path = packages
 	url = https://github.com/darkforest-eth/packages.git
