@@ -24,9 +24,10 @@ Yarn places all of the packages for each submodule in the top level `node_module
 
 ### Fastest Method for Running a Local Game
 1. Fork my [darkforest-local](https://github.com/cha0sg0d/darkforest-local) to your Github repo.
-2. Clone your darkforest-local repo: `git clone --recurse-submodules https://github.com/<your_name>/darkforest-local.git`
-3. `yarn`
-4. `yarn start`
+2. Clone your darkforest-local repo: `git clone https://github.com/<your_name>/darkforest-local.git`
+3. `git submodule update --init --recursive --remote --merge`
+4. `yarn`
+5. `yarn start`
 
 ### Better Method for Running a Local Game
 1. Fork my [darkforest-local](https://github.com/cha0sg0d/darkforest-local) to your Github repo.
